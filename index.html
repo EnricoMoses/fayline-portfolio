@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+  <!DOCTYPE html>
 <html lang="en">
 
 <head>
@@ -16,12 +16,14 @@
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/boxicons@latest/css/boxicons.min.css">
   <!-- or -->
   <link rel="stylesheet" href="https://unpkg.com/boxicons@latest/css/boxicons.min.css">
+
+  <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
 </head>
 
 <body>
 
   <!-- navigation header ======**====== -->
-<header>
+<header data-aos="fade-down" data-aos-duration="1000" data-aos-delay="1000">
   <div class="container">
     <a href="#" class="logo">
       <img src="img/logos/logo.png" alt="Page Logo">
@@ -53,20 +55,20 @@
   <!-- hero section ======**====== -->
 <section class="hero" id="hero">
   <div class="container">
-    <div class="left">
-      <span class="top">Hey!</span>
-      <h1 class="title">I'm <span>Fayline P H</span> <br> a Chef</h1>
-      <p class="desc">Chef base in Surabaya, Indonesia. I am cooking with a minimal delicious taste 
+    <div class="left" data-aos="fade-down" data-aos-duration="1500">
+      <span class="top" data-aos="fade-down" data-aos-duration="1500">Hey!</span>
+      <h1 class="title" data-aos="fade-right" data-aos-duration="1500">I'm <span class="name">Fayline P H</span> <br> a <span id="jobs"></span></h1>
+      <p class="desc" data-aos="flip-down" data-aos-duration="1400" data-aos-delay="300">Chef base in Surabaya, Indonesia. I am cooking with a minimal delicious taste 
         in the world.</p>
 
-        <div class="connect">
+        <div class="connect" data-aos="zoom-out" data-aos-duration="1400" data-aos-delay="400">
           <span>Follow Me on</span>
           <a href="#"><i class="bx bxl-dribbble"></i></a>
           <a href="https://www.tiktok.com/@claudiafayline_246" target="_blank"><i class="bx bxl-tiktok"></i></a>
           <a href="https://www.instagram.com/claudiafayline/" target="_blank"><i class="bx bxl-instagram" target="_blank"></i></a>
         </div>
 
-        <div class="cta">
+        <div class="cta" data-aos="flip-up" data-aos-duration="1400" data-aos-delay="600">
           <button class="btn fill">
             <a href="mailto:faylineph06@gmail.com">
               <i class="bx bx-envelope"></i> Mail me
@@ -81,7 +83,7 @@
         </div>
     </div>
 
-    <div class="right">
+    <div class="right" data-aos="zoom-in" data-aos-duration="2000">
       <img src="img/shape-circle.png" alt="placeholder" class="circle">
       <img src="img/shape-square.png" alt="placeholder" class="sq">
       <img src="img/hero.png" alt="placeholder" class="profile">
@@ -291,6 +293,8 @@
 </footer>
 
   <!-- adding custom javascript file -->
+  <script src="https://cdnjs.cloudFlare.com/ajax/libs/typed.js/2.1.0/typed.umd.js"> </script>
+  <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
   <script src="js/script.js"></script>
 </body>
 

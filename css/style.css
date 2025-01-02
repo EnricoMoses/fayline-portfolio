@@ -323,7 +323,7 @@ header .nav-desktop a.active {
   font-weight: 500;
 }
 
-.hero .left .title span {
+.hero .left .title span.name {
   color: var(--clr-primary);
 }
 

@@ -14,3 +14,15 @@ hamb.addEventListener("click", function(){
     this.classList.toggle("active");
     nav.classList.toggle("active");
 });
+
+//typing animation
+var typed = new Typed ("#jobs", {
+    strings: ["Chef.", "Boss.", "Atlet.", "Model.", "Baker."],
+    typeSpeed: 75,
+    loop: true
+})
+
+//transition animation
+AOS.init({
+    offset: 1
+  });
